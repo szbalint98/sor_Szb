@@ -1,0 +1,56 @@
+main{
+    background-image: url(kepek/teglafal.jpg);
+    color: white;
+    
+}
+header{
+    color: white;
+    height: 300px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border: solid white 2px;
+    background-image: url(kepek/beer-new_401732638.jpg);
+    background-size: cover;
+    padding: 10px;
+}
+article{
+    display: grid;
+    grid-template-columns: 1fr 2fr ;
+    background-color: black;
+    
+    border: solid white 2px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.kep{
+    width: 270px;
+    border: 2px solid gray
+    
+}
+.taralom{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+}
+nav{
+    border: solid white 2px;
+    background-color: gray;
+    
+}
+footer{
+    background-color: rgb(148, 147, 147);
+    text-align: center;
+}
+.ull {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+  }
+  .li{
+    border: solid white 1px;
+    margin: 5px;
+    color: red;
+  }
+a{
+    color: red;
+}

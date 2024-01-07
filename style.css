@@ -1,7 +1,12 @@
 main{
     background-image: url(kepek/teglafal.jpg);
     color: white;
+    box-sizing: border-box;
+    font-family: Arial,Verdana,sans-serif;
+    font-size: 10pt;
     
+    margin: auto;
+    max-width: 1000px;
 }
 header{
     color: white;
@@ -12,45 +17,99 @@ header{
     background-image: url(kepek/beer-new_401732638.jpg);
     background-size: cover;
     padding: 10px;
+    font-family: Garamond;
+    font-style: bold;
 }
 article{
     display: grid;
     grid-template-columns: 1fr 2fr ;
     background-color: black;
-    
     border: solid white 2px;
     margin-left: 200px;
     margin-right: 200px;
+    
 }
+.felsorolas{
+    font-size: 10px;
+}
+
 .kep{
     width: 270px;
     border: 2px solid gray
     
 }
+h2{
+    font-size: 15px;
+}
+.sori{
+    padding: 5px;
+}
 .taralom{
     display: grid;
-    grid-template-columns: 1fr 1fr ;
+    grid-template-columns: 2fr 1fr ;
 }
 nav{
     border: solid white 2px;
-    background-color: gray;
+    background-color: rgb(65, 63, 63);
     
 }
 footer{
-    background-color: rgb(148, 147, 147);
+    background-color: rgb(75, 72, 72);
     text-align: center;
 }
+nav a{
+    text-decoration: none;
+    
+    
+}
+
 .ull {
     list-style-type: none;
     margin: 0;
     padding: 0;
+
+    
     
   }
   .li{
     border: solid white 1px;
     margin: 5px;
     color: red;
+    border-radius: 5px;
+    padding: 3px;
   }
 a{
     color: red;
 }
+li a:hover {
+    background-color: rgb(156, 151, 151);
+    color: white;
+  }
+table{
+    border-collapse: collapse;
+    width: 100%;
+   }
+   td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  tr:nth-child(even) {
+    background-color: #dddddd;
+    
+  }
+  .art{
+    background-color: black;
+  }
+  @media only screen and (max-width: 700px) {
+    article{
+        display: grid;
+        grid-template-columns: 1fr;
+        
+        
+    }
+    .taralom{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+  }

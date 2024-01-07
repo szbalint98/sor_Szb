@@ -32,12 +32,15 @@ section{
     background-color: black;
     margin: 10px;
     padding: 10px;
+    
 }
 
 .felsorolas{
     font-size: 10px;
 }
-
+section td, th, tr {
+    text-align: center;
+}
 .kep{
     width: 270px;
     border: 2px solid gray

@@ -37,6 +37,7 @@ section{
 
 .felsorolas{
     font-size: 10px;
+    list-style: square;
 }
 section td, th, tr {
     text-align: center;
